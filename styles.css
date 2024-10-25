@@ -36,11 +36,25 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 
-main {
-  padding: 1rem;
-}
-
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+/* Vår CSS */
+
+
+main {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* setter containerene i main vannrett */
+}
+
+
+.kort {
+  display: flex;
+  flex-direction: column; /*for å sette knappen under bildet ved å sette elementene i kortet loddrett */
+  width: 25%;
+  min-width: 200px;
 }
